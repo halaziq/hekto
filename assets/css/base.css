@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontFamily);
+    color: var(--hekto-mavi);
+}
+
+:root{
+    --fontFamily: "Josefin Sans", sans-serif;
+    --hekto-pink: #FB2E86;
+    --hekto-white: #EEEFFB;
+    --search-textfiled-color:#E7E6EF;
+    --hekto-mouve: #8A8FB9;
+    --hekto-mavi: #151875;
+    --hekto-aqua: #05E6B7;
+    --hekto-grey: #F7F7F7;
+    --hekto-interactions: #1389FF;
+    --white: #FFFFFF;
+    --hekto-red: #FB2448;
+    --hekto-light-grey: #F1F0FF;
+    --hekto-text-grey: #ACABC3;
+    --hekto-light-mouve: #B7BACB;
+    --hekto-trending-product-img-color : #F5F6F8;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: calc(100% - 150px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2{
+    color: var(--hekto-mavi);
+    font-size: 28px;
+    font-family: var(--fontFamily);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    margin-top: 50px;
+
+}
+
+.main-button{
+    height: 50px;
+    width: 163px;
+    background-color: var(--hekto-pink);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    border: 0;
+    margin-top: 20px;
+}
+
+.latest-product-name{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.latest-product-name{
+    font-size: 16px;
+    text-decoration: underline solid var(--hekto-white) 3px;
+    text-underline-offset: 5px;
+}
+.regular-price{
+    color: var(--hekto-red);
+    text-decoration: line-through;
+    font-size: 14px;
+}
